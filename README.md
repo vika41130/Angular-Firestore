@@ -29,4 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Install
 + https://github.com/angular/angularfire2/blob/master/docs/install-and-setup.md
++ npm install --save materialize-css@next jquery font-awesome
++ config materialize-css@next jquery font-awesome in .angular-cli.json
 + 
