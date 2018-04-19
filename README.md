@@ -28,8 +28,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Angular-Firestore
 
 ## Guideline
-+ https://www.youtube.com/watch?v=cwqeyOFcaoA&index=2&list=PLillGF-RfqbaISD5mxDCIjsSYk4jbiXi4
++ https://www.youtube.com/watch?v=0Nah3foeyCM&index=1&list=PLw5h0DiJ-9PCm3d8fpL4DFIMNkwI4o3gl
 + https://github.com/angular/angularfire2/blob/master/docs/install-and-setup.md
 + npm install --save materialize-css@next jquery font-awesome
 + config materialize-css@next jquery font-awesome in .angular-cli.json
 + config environment for firebase
+
