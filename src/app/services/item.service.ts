@@ -12,7 +12,7 @@ export class ItemService {
 
   constructor(public afs: AngularFirestore) {
 
-    this.itemCollection = this.afs.collection('items', ref => ref.orderBy('title', 'asc'));
+    this.itemCollection = this.afs.collection('items', ref => ref.orderBy('title', 'desc').endAt('Item 2').limit(3));
 
     // this.items = this.afs.collection('items').valueChanges();
     this.items = this.itemCollection.snapshotChanges().map(changes => {

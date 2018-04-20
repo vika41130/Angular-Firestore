@@ -1,0 +1,6 @@
+<div *ngif="someObservable | async; else loading">
+  data
+
+</div>
+
+<ng-template #loading="">spinner...</ng-template>

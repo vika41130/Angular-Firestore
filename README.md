@@ -33,4 +33,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 + npm install --save materialize-css@next jquery font-awesome
 + config materialize-css@next jquery font-awesome in .angular-cli.json
 + config environment for firebase
++ docs: https://angularfirebase.com/lessons/firestore-with-angularfire-basics/
 + 

@@ -26,7 +26,7 @@ import { AddItemComponent } from './components/add-item/add-item.component';
   imports: [
     BrowserModule, FormsModule,
     AngularFireModule.initializeApp(environment.firebase, 'angular-fire-store'),
-    AngularFirestoreModule
+    AngularFirestoreModule.enablePersistence()
   ],
   providers: [ItemService],
   bootstrap: [AppComponent]
